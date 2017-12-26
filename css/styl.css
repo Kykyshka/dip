@@ -1,0 +1,188 @@
+﻿*
+{
+margin:0px ;
+padding:0px;
+}
+.menu li
+{
+float:left;
+list-style:none;
+margin:10px 25px;
+color:#fff;
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+  
+ input[type=submit] {
+	 font: 18px Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+} 
+  
+.blok-menu
+{
+overflow: hidden;
+background: #3D9AD1;
+box-shadow: 0px 13px 17px -6px #000000;
+}
+.menu
+{
+margin:0 auto;
+display:table;
+}
+.menu li a
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+text-decoration: none;
+}
+.menu li a:hover
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#ccc;
+border-bottom:1px dotted #ccc;
+color:#fff;
+}
+ 
+.content
+{
+width:700px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+ 
+.content h2
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-align:center;
+}
+ 
+.content p
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:20px;
+}
+ 
+.footer
+{
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+.footer p, .footer a
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+}
+ 
+.footer a
+{
+text-decoration: none;
+border-bottom:1px dotted #444;
+}
+ 
+.footer a:hover
+{
+text-decoration: none;
+border:0px;
+}
+table {
+    width: 100%; /*Ширина таблицы*/
+    margin-bottom: 18px; /*Отступ снизу от таблицы*/
+    padding: 0; /*Отступы внутри таблицы*/
+    font-size: 13px; /*Размер шрифта*/
+    border: 1px solid #dddddd; /*Граница таблицы*/
+    border-spacing: 0; /*Отступы между границами ячеек*/
+    border-collapse: separate; /*Границы ячеек не склеиваются*/
+	-webkit-border-radius: 5px; /*Радиус скругления углов у таблицы Safari, Chrome*/
+    -moz-border-radius: 5px; /*Радиус скругления углов у таблицы Mozilla*/
+    border-radius: 5px; /*Радиус скругления углов у таблицы*/
+    color: #666666; /*Цвет текста в таблице*/
+	font-family: Arial; /*Семейство шрифтов*/
+}
+
+table th, table td {
+    padding: 10px 10px 9px; /*Отступы внутри ячеек*/
+    line-height: 18px; /*Межстрочный интервал*/
+    text-align: left; /*Выравнивание текста по левому краю*/
+}
+
+table th {
+    padding-top: 9px; /*Отступы внутри ячеек*/
+    font-weight: bold; /*Установка жирного начертания шрифта*/
+    vertical-align: middle; /*Выравнивание по вертикали. Текст находится по середине*/
+    color: black; /*Черный цвет в ячейках заголовков таблицы*/
+}
+
+table td {
+    vertical-align: top; /*Выравнивание содержимого ячейки по верхнему краю*/
+    border-top: 1px solid #ddd; /*Верхняя граница ячейки*/
+}
+
+table th+th,table td+td,table th+td {
+    border-left: 1px solid #ddd; /*Стиль для левой границы между двумя ячейками*/
+}
+
+table thead tr:first-child th:first-child, /*Первая строка первая ячейка в заголовке таблицы*/
+table tbody tr:first-child td:first-child /*Первая строка первая ячейка в теле таблицы*/{
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+}
+
+table thead tr:first-child th:last-child, /*Первая строка последняя ячейка в заголовке таблицы*/
+table tbody tr:first-child td:last-child /*Первая строка последняя ячейка в теле таблицы*/ {
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+
+table tbody tr:last-child td:first-child  /*Последняя строка первая ячейка в теле таблицы*/ {
+    -webkit-border-radius: 0 0 0 5px;
+    -moz-border-radius: 0 0 0 5px;
+    border-radius: 0 0 0 5px;
+}
+
+table tbody tr:last-child td:last-child  /*Последняя строка последняя ячейка в теле таблицы*/{
+    -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px 0;
+}
+
+table tr:hover {
+    background-color: #f2f2f2; /*Цвет строки при наведении курсора мыши*/
+}
+
+/*Подсветка нечетных строк в таблице*/
+/*table tbody tr:nth-child(odd) td  {
+    background-color: #f8f8f8;
+}
+*/
